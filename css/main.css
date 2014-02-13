@@ -1,0 +1,208 @@
+body{
+	background:#e5e5e5;
+	color:#6e6e6e;
+
+	font-family: 'Montserrat:400,700', sans;
+	font-size: 11px;
+}
+
+.container{
+
+
+
+}
+
+h1{
+
+	font-family: 'Montserrat:400,700', sans;
+	color:#282828;
+
+}
+
+
+h4{
+
+	font-size: 14px;
+	color:#4a4a4a;
+
+}
+
+
+.header{
+	
+	background: #f7f7f7;
+	height:80px;
+
+}
+
+.headerLeft{
+
+	margin-top: 10px;
+
+}
+
+.header img{
+	float:left;
+	max-width: 50px;
+	margin-top:20px;
+	margin-left: 20px;
+
+}
+
+.headerRight{
+
+	
+
+}
+
+
+
+
+.nav {
+	color:#b5b5b5;
+	margin-right:40px;
+
+}
+
+.nav li{
+	list-style: none;
+	font-size: 20px;
+	float:left;
+	margin: 42px 15px 0;
+
+}
+
+.header a{
+
+	color:#b5b5b5;
+
+}
+
+.header a:hover{
+
+	color:#282828;
+
+}
+
+
+.main{
+	padding-top: 25px;
+	
+	
+}
+
+.mainRight{
+
+	margin-top: -10px;
+
+}
+
+.sectionHead{
+	padding: 0px 5px 0px;
+	background:#f2f2f2;
+
+}
+
+.lineHeighter{
+
+	line-height: 20px;
+
+}
+
+
+.section{
+	padding: 1px 5px 1px;
+	margin-bottom:15px;
+	line-height: 20px
+}
+
+
+.section a{
+	color:#6e6e6e;
+	display: block;
+	margin: 5px 0 5px;
+}
+
+
+.projects{
+	padding: 10px 12px 10px;
+	background:white;
+	margin-bottom: 25px;
+
+	-moz-box-shadow:    1px 1px 2px 1px #b7b7b7;
+  	-webkit-box-shadow: 1px 1px 2px 1px #b7b7b7;
+  	box-shadow:         1px 1px 2px 1px #b7b7b7;
+
+}
+
+
+
+.projectCopy{
+	float:left;
+	max-width:50%;
+
+}
+
+.viewProject{
+
+	margin-top: 40px;
+
+}
+
+.viewProject a{
+
+	color:gray;
+
+}
+
+
+.projectImg{
+
+	
+
+}
+
+
+.projectImg img{
+	margin-left:20px;
+	max-height:140px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  
+
+
+}
+}
+
+
+@media screen and (max-width: 760px) {
+  @-ms-viewport {
+    width: 320px;
+    h1
+  }
+}
+  
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+
+
+}
