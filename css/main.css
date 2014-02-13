@@ -38,7 +38,7 @@ h4{
 .headerLeft{
 
 	margin-top: 10px;
-
+	max-width: 870px;
 }
 
 .header img{
@@ -56,11 +56,15 @@ h4{
 }
 
 
+.title {
 
+	margin-bottom:40px;
+
+}
 
 .nav {
 	color:#b5b5b5;
-	margin-right:40px;
+	margin-bottom:39px;
 
 }
 
@@ -68,17 +72,17 @@ h4{
 	list-style: none;
 	font-size: 20px;
 	float:left;
-	margin: 42px 15px 0;
+	margin: 42px 30px 0px 0;
 
 }
 
-.header a{
+.nav a{
 
 	color:#b5b5b5;
 
 }
 
-.header a:hover{
+.nav a:hover{
 
 	color:#282828;
 
@@ -94,7 +98,13 @@ h4{
 
 .mainRight{
 
-	margin-top: -10px;
+	margin-top: -95px;
+
+}
+
+.mainLeft{
+
+	margin-top: -85px;
 
 }
 
@@ -140,6 +150,7 @@ h4{
 
 .projectCopy{
 	float:left;
+	min-width: 241px;
 	max-width:50%;
 
 }
