@@ -3,7 +3,7 @@ body{
 	color:#6e6e6e;
 
 	font-family: 'Montserrat:400,700', sans;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .container{
@@ -42,10 +42,32 @@ h4{
 }
 
 .header img{
-	float:left;
+	float:right;
 	max-width: 70px;
 	margin-top:28px;
 	margin-left: 20px;
+
+}
+
+.header a{
+		
+	
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+}
+
+.header a:hover{
+		
+	opacity: .5;
+	-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 
 }
 
@@ -84,10 +106,15 @@ h4{
 
 .nav a:hover{
 
-	color:#282828;
+	color:purple;
 
 }
 
+.active{
+
+	color:purple;
+
+}
 
 .main{
 	padding-top: 25px;
@@ -163,7 +190,7 @@ h4{
 
 .viewProject a{
 
-	color:gray;
+	color:lightgray;
 
 }
 
@@ -183,6 +210,73 @@ h4{
 }
 
 
+.contactImg{
+	
+	
+
+
+}
+
+
+.contact{
+	height:200px;
+	padding: 10px 12px 10px;
+	background:white;
+	margin-bottom: 25px;
+
+	-moz-box-shadow:    1px 1px 2px 1px #b7b7b7;
+  	-webkit-box-shadow: 1px 1px 2px 1px #b7b7b7;
+  	box-shadow:         1px 1px 2px 1px #b7b7b7;
+
+}
+
+.teachPhil{
+	height:100%;
+	padding: 10px 12px 10px;
+	background:white;
+	margin-bottom: 25px;
+
+	-moz-box-shadow:    1px 1px 2px 1px #b7b7b7;
+  	-webkit-box-shadow: 1px 1px 2px 1px #b7b7b7;
+  	box-shadow:         1px 1px 2px 1px #b7b7b7;
+
+}
+
+
+.teachPhil a{
+
+	color:lightgray;
+
+}
+
+.contactCopy{
+	float:left;
+	margin-bottom: 10px;
+	min-width: 241px;
+	max-width:50%;
+
+}
+
+
+.contactImg img{
+	margin-left:50px;
+	max-width:120px;
+
+
+}
+
+.contactLeft{
+	float: left;
+	width:100px;
+
+}
+
+
+.contactRight{
+	float: left;
+	width:140px;
+	
+}
 
 
 
