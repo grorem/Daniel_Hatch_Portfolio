@@ -42,7 +42,7 @@ h4{
 }
 
 .header img{
-	float:right;
+	vertical-align: left;
 	max-width: 70px;
 	margin-top:28px;
 	margin-left: 20px;
@@ -166,7 +166,7 @@ transition: all 500ms ease;
 	padding: 10px 12px 10px;
 	background:white;
 	margin-bottom: 25px;
-
+	width:100%;
 	-moz-box-shadow:    1px 1px 2px 1px #b7b7b7;
   	-webkit-box-shadow: 1px 1px 2px 1px #b7b7b7;
   	box-shadow:         1px 1px 2px 1px #b7b7b7;
@@ -177,8 +177,8 @@ transition: all 500ms ease;
 
 .projectCopy{
 	float:left;
-	min-width: 241px;
-	max-width:50%;
+	min-width: 40%px;
+	max-width:44%;
 
 }
 
@@ -250,7 +250,7 @@ transition: all 500ms ease;
 .flats{
 	float:left;
 	height:100%;
-	width:48%;
+	width:47.7%;
 	padding: 10px 12px 10px;
 	background:white;
 	margin-bottom: 25px;
