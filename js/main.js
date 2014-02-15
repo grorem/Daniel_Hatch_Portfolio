@@ -107,6 +107,46 @@ $(function(){
 });
 
 
+$(function(){
+    $(".title").click(function(){
+      
+  
+        $('.mobileNav').fadeIn(300);
+        
+        
+
+   
+
+    });
+});
+
+$(function(){
+    $(".closer").click(function(){
+      
+  
+        $('.mobileNav').fadeOut(300);
+        
+        
+
+   
+
+    });
+});
+
+$(function(){
+    $(".mobileNav").children().click(function(){
+      
+  
+        $('.mobileNav').fadeOut(300);
+        
+        
+
+   
+
+    });
+});
+
+
 
 
 
