@@ -289,6 +289,8 @@ transition: all 500ms ease;
 
 }
 
+.clear {clear: both;}
+
 .flats img{
 
 	width:100%;
@@ -463,6 +465,44 @@ text-align: center;
 .burger{
 
 	display: none;
+}
+
+
+
+}
+
+@media (max-width: 560px) {
+
+
+.flats {
+
+	width:100%;
+
+}
+
+.projectCopy{
+	max-width: 100%;
+	width:100%;
+
+}
+
+.title{
+
+	font-size: 18px;
+
+}
+
+.viewProject{
+	margin-bottom: 20px;
+	font-size: 25px;
+
+}
+
+.projectImg img{
+	max-width:100%;
+	margin: 0px;
+	
+
 }
 
 
