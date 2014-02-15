@@ -6,6 +6,9 @@ body{
 	font-size: 11px;
 }
 
+
+
+
 .container{
 
 
@@ -95,6 +98,12 @@ opacity: .7;
 -ms-transition: all 500ms ease;
 -o-transition: all 500ms ease;
 transition: all 500ms ease;
+}
+
+.burger{
+	margin-top: 4px;
+	float:right;
+
 }
 
 
@@ -196,6 +205,9 @@ transition: all 500ms ease;
 	max-width:44%;
 
 }
+
+
+
 
 .viewProject{
 
@@ -388,6 +400,8 @@ transition: all 500ms ease;
 
 @media (max-width: 991px) {
 
+
+
 .nav{
 
 	display: none;
@@ -437,6 +451,18 @@ text-align: center;
 	font-size: 30px;
 	margin-right:15px;
 
+}
+
+
+
+}
+
+@media (min-width: 991px) {
+
+
+.burger{
+
+	display: none;
 }
 
 

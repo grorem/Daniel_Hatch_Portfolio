@@ -108,7 +108,7 @@ $(function(){
 
 
 $(function(){
-    $(".title").click(function(){
+    $(".burger").click(function(){
       
   
         $('.mobileNav').fadeIn(300);
